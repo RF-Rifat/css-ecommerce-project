@@ -249,7 +249,9 @@ nav {
 }
 
 @media (max-width: 600px) {
-   
+   main{
+    height: 100svh;
+   }
 }
 
 /* navbar responsive ends here */
@@ -307,7 +309,7 @@ nav {
 
 .sidebar {
     flex: 1;
-    padding: var(--padding);
+    /* padding: var(--padding); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -318,16 +320,16 @@ nav {
 
 .main-content {
     flex: 3;
-    padding: var(--padding);
+    /* padding: var(--padding); */
 
 }
 
 .actions-sort select {
-    padding: var(--padding);
+    /* padding: var(--padding); */
 }
 
 .actions-search input {
-    padding: var(--padding);
+    /* padding: var(--padding); */
     width: 15rem;
 }
 
@@ -609,7 +611,9 @@ nav {
 
 /* footer starts here */
 .footer {
-    padding: 1rem;
+    /* padding: 1rem; */
+    position: relative;
+    /* bottom: 0; */
     background-color: var(--primary-color);
     min-height: 10vh;
     color: white;
